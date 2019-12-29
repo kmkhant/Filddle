@@ -44,10 +44,8 @@ elif PLATFORM == 'linux' or PLATFORM == 'linux2' or OS == 'posix':
 else:
     CONFIG = os.path.join(os.getcwd(), '.filddle-default.conf')
 
-
 def main():
     Filddle()
-
 
 class Filddle:
     """
@@ -213,3 +211,8 @@ class Filddle:
         ██║     ██║███████╗██████╔╝██████╔╝███████╗███████╗
         ╚═╝     ╚═╝╚══════╝╚═════╝ ╚═════╝ ╚══════╝╚══════╝
         %s                                          v0.1 kaelkmk\n""" % (GREEN, END))
+
+if __name__ == "__main__":
+    main()
+
+    
